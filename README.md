@@ -27,8 +27,18 @@ composer update alb3rts/HelloWorld
 
 ## Clone (desde github)
 cd app/code/Mageplaza
+
 git clone https://github.com/alb3rts/HelloWorld.git
 
 ## Update last version GitHub (GitHUb->Local)
 
 git pull master
+
+## Info GIT ------------------------------------
+
+###TAGS
+
+git tag v2.0 -m "Segunda versió"
+
+git push --tags
+
