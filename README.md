@@ -2,16 +2,7 @@
 
 Módul de prova
 
-## Clone
-
-cd app/code/marrako
-
-git clone https://github.com/alb3rts/HelloWorld.git
-
-### Run the “setup:upgrade” command
-Running this command makes your new module active, notifying Magento of its presence.
-
-php bin/magento setup:upgrade
+#Composer
 
 ## Install
 Insert in the composer.json file of the Magento 2 project, new repository: 
@@ -23,10 +14,21 @@ Insert in the composer.json file of the Magento 2 project, new repository:
 
 composer require alb3rts/HelloWorld:dev-master
 
+### Run the “setup:upgrade” command
+Running this command makes your new module active, notifying Magento of its presence.
+
+php bin/magento setup:upgrade
+
 ## Update
 
 composer update alb3rts/HelloWorld
 
-## Update last version GitHub
+#GitHub
+
+## Clone (desde github)
+cd app/code/Mageplaza
+git clone https://github.com/alb3rts/HelloWorld.git
+
+## Update last version GitHub (GitHUb->Local)
 
 git pull master
