@@ -1,4 +1,4 @@
-# Hello Magento!!!
+# Hello World!!!
 
 Módul de prova
 
