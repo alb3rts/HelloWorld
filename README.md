@@ -2,7 +2,7 @@
 
 Módul de prova
 
-#Composer
+##Composer+++++++++++++++++++++++++++++++++++++++++++
 
 ## Install
 Insert in the composer.json file of the Magento 2 project, new repository: 
@@ -23,7 +23,7 @@ php bin/magento setup:upgrade
 
 composer update alb3rts/HelloWorld
 
-#GitHub
+##GitHub+++++++++++++++++++++++++++++++++++++++++++++++
 
 ## Clone (desde github)
 cd app/code/Mageplaza
