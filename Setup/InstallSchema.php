@@ -8,9 +8,9 @@ class InstallSchema implements \Magento\Framework\Setup\InstallSchemaInterface
 	{
 		$installer = $setup;
 		$installer->startSetup();
-		if (!$installer->tableExists('mageplaza_helloworld_post')) {
+		if (!$installer->tableExists('now_mageplaza_helloworld_post')) {
 			$table = $installer->getConnection()->newTable(
-				$installer->getTable('mageplaza_helloworld_post')
+				$installer->getTable('now_mageplaza_helloworld_post')
 			)
 				->addColumn(
 					'post_id',
@@ -82,9 +82,9 @@ class InstallSchema implements \Magento\Framework\Setup\InstallSchemaInterface
 			$installer->getConnection()->createTable($table);
 
 			$installer->getConnection()->addIndex(
-				$installer->getTable('mageplaza_helloworld_post'),
+				$installer->getTable('now_mageplaza_helloworld_post'),
 				$setup->getIdxName(
-					$installer->getTable('mageplaza_helloworld_post'),
+					$installer->getTable('now_mageplaza_helloworld_post'),
 					['name','url_key','post_content','tags','featured_image'],
 					\Magento\Framework\DB\Adapter\AdapterInterface::INDEX_TYPE_FULLTEXT
 				),
